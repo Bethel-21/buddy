@@ -1,6 +1,6 @@
 Buddy
 
-verview
+Overview
 Buddy is a prototype platform for self-learners that combines a Pomodoro timer, curated learning resources, and quizzes to help users study efficiently and track their progress.
 
 ## Features
