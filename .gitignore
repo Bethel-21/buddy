@@ -1,0 +1,7 @@
+# Python
+backend/venv/
+backend/*.pyc
+backend/__pycache__/
+
+# Node / frontend build files (optional)
+frontend/node_modules/
