@@ -5,3 +5,6 @@ backend/__pycache__/
 
 # Node / frontend build files (optional)
 frontend/node_modules/
+
+# Environment variables
+.env

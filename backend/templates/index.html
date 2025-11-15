@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SmartStudy Flow 🌸</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="pomodoro">
+        <p id="timer">25:00</p>
+        <div id="pomodoro-buttons">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+    <!-- Learning Topic Input -->
+    <div id="learning-section">
+        <input type="text" id="topic-input" placeholder="What are you learning today?">
+        <button id="find-resources">Find Resources</button>
+    </div>
+
+    <!-- Resource Cards -->
+    <div id="resources-container"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

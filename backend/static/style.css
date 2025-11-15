@@ -1,0 +1,113 @@
+body {
+    font-family: 'Comic Neue', sans-serif;
+    background-color: #FDE2FF;
+    color: #5C2A65;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Pomodoro timer box */
+#pomodoro {
+    background-color: #FFD6E8;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 30px; /* space between timer and input */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#timer {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#pomodoro-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#pomodoro button {
+    background-color: #FFB3C1;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#pomodoro button:hover {
+    background-color: #FF8AAE;
+    transform: scale(1.05);
+}
+
+/* Learning Input */
+#learning-section {
+    margin-bottom: 20px;
+}
+
+#topic-input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 12px;
+    border: 2px solid #FFB3C1;
+    width: 250px;
+}
+
+#find-resources {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FFB3C1;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#find-resources:hover {
+    background-color: #FF8AAE;
+    transform: scale(1.05);
+}
+
+/* Resource Cards */
+#resources-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.resource-card {
+    background-color: #FFD6E8;
+    padding: 15px;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.resource-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #FFB3C1;
+    color: #5C2A65;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.resource-card a:hover {
+    background-color: #FF8AAE;
+    transform: scale(1.05);
+}
+
+.resource-thumbnail {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
