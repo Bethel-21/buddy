@@ -23,6 +23,13 @@
     <!-- Resource Cards -->
     <div id="resources-container"></div>
 
+
+    <input type="text" id="quiz-topic-input" placeholder="Enter quiz topic, e.g., cats">
+<input type="number" id="quiz-num-input" placeholder="Number of questions" value="3" min="1" max="10">
+<button id="take-quiz">Take Quiz</button>
+<div id="quiz-container"></div>
+
+
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

@@ -111,3 +111,61 @@ body {
     border-radius: 10px;
     margin-top: 5px;
 }
+
+/* Quiz Container */
+#quiz-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Each Question Card */
+.quiz-question {
+    background-color: #fff0f5;  /* soft pink */
+    border: 2px solid #ffb6c1;  /* light pink border */
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* cute font */
+    color: #333;
+}
+
+/* Question Text */
+.quiz-question p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Options */
+.quiz-question label {
+    display: block;
+    background-color: #ffe4e1;  /* soft peach */
+    margin: 5px 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quiz-question label:hover {
+    background-color: #ffccd5;
+}
+
+/* Submit Button */
+.quiz-question + button {
+    background-color: #ff69b4;  /* hot pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.quiz-question + button:hover {
+    background-color: #ff85c1;
+}
+
